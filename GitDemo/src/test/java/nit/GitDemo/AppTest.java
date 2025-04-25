@@ -9,11 +9,10 @@ import org.junit.jupiter.api.Test;
  */
 public class AppTest {
 
-    /**
-     * Rigorous Test :-)
-     */
     @Test
-    public void shouldAnswerWithTrue() {
-        assertTrue(true);
+    public void testSumWithPositive() {
+    	int expedted = 60;
+    	int actual = App.sum(15, 45);
+//        assertEquals(expedted, actual);
     }
 }
